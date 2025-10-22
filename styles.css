@@ -1,3 +1,33 @@
 body{
-    
+    background-color: aliceblue;
+    font-family: Arial, sans-serif;
+    align-items: center;
+}
+
+.container{
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;    
+}
+
+img{
+    display: block;
+    margin: 0 auto 20px;
+    border-radius: 20px
+}
+
+h1{
+    text-align: center;
+    color: #333;
+    font-size: 2.8em;
+}
+
+p{
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+    text-align: center;
 }
