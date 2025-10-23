@@ -1,18 +1,26 @@
+@media (max-width: 600px) {
+    .flex-items {
+      max-width: 100%;
+      padding: 1.5rem;
+    }
+}
+
 body{
     background-color: #f0f8ff;
     font-family: Arial, sans-serif;
+    margin: 1rem auto;
+    padding: 1rem;
 }
 
 .container{
     display: flex;
     justify-content: center;
-    /* align-items: stretch; container grows with items */
+    align-items: stretch; /* container grows with items */
     flex-wrap: wrap;
     width: 90%;
     min-height:100vh;
     background-color: rgb(215, 227, 242);
-    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);
-    
+    box-shadow: 0 0 50px rgba(0, 0, 0, 0.3);   
 }
 
 .flex-items{
