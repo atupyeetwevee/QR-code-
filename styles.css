@@ -8,14 +8,13 @@
 body{
     background-color: #f0f8ff;
     font-family: Arial, sans-serif;
-    margin: 5rem;
-    padding: 1rem;
+    margin: 1.5rem;
 }
 
 .container{
     display: flex;
     justify-content: center;
-    align-items: stretch; /* container grows with items */
+    /* align-items: stretch; container grows with items */
     flex-wrap: wrap;
     width: 90%;
     min-height:100vh;
